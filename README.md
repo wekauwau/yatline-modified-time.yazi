@@ -4,7 +4,7 @@ An addon to display the modification time of file or folder in your [yatline.yaz
 
 ## Requirements
 
-- [yazi](https://github.com/sxyazi/yazi) version >= 0.3.0
+- [yazi](https://github.com/sxyazi/yazi) version >= 0.4.0
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi)
 
 ## Installation
