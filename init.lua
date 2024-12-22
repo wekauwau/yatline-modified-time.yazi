@@ -20,8 +20,8 @@ local function setup(_, options)
 			local modified_time = {}
 			local time = ""
 
-			if h or h.cha.modified then
-				time = " M: " .. os.date("%Y-%m-%d %H:%M", h.cha.modified // 1) .. " "
+			if h or h.cha.mtime then
+				time = " M: " .. os.date("%Y-%m-%d %H:%M", h.cha.mtime // 1) .. " "
 			end
 
 			table.insert(modified_time, { time, config.modified_time_color })
