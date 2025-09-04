@@ -10,7 +10,7 @@ An addon to display the modification time of file or folder in your [yatline.yaz
 ## Installation
 
 ```sh
-ya pack -a wekauwau/yatline-modified-time
+ya pkg add wekauwau/yatline-modified-time
 ```
 
 ## Usage
