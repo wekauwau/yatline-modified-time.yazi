@@ -20,7 +20,7 @@ local function setup(_, options)
 			local modified_time = {}
 			local time = ""
 
-			if h or h.cha.mtime then
+			if h ~= "" and h.cha and h.cha.mtime then
 				time = " M: " .. os.date("%Y-%m-%d %H:%M", h.cha.mtime // 1) .. " "
 			end
 
